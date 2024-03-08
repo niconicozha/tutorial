@@ -1,9 +1,9 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogPost from "../components/BlogPost.astro";
-import { type Blog } from "../types";
+import { type Post } from "../types";
 
-const allPosts = await Astro.glob<Record<string, Blog>>("../pages/posts/*.md");
+const allPosts = await Astro.glob<Record<string, Post>>("../pages/posts/*.md");
 const pageTitle = "Blog Page";
 ---
 

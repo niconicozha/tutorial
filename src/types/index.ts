@@ -1,4 +1,4 @@
-export interface Blog {
+export interface Post {
   frontmatter: {
     layout: string;
     title: string;
